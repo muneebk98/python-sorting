@@ -130,12 +130,12 @@ if len(set(data)) == 1:
 sort = Sort(data)
 
 if sort_type == '1':
-    print("Sorted:", sort.bubble_sort())
+    print("Sorted 1:", sort.bubble_sort())
 elif sort_type == '2':
-    print("Sorted:", sort.selection_sort())
+    print("Sorted 2:", sort.selection_sort())
 elif sort_type == '3':
-    print("Sorted:", sort.insertion_sort())
+    print("Sorted 3:", sort.insertion_sort())
 elif sort_type == '4':
-    print("Sorted:", sort.merge_sort())
+    print("Sorted 4:", sort.merge_sort())
 elif sort_type == '5':
-    print("Sorted:", sort.quick_sort())
+    print("Sorted 5:", sort.quick_sort())
